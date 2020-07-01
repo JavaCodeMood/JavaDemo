@@ -39,7 +39,7 @@ Object类中定义的equals方法，用于比较对象的内存地址， 对于�
       (3)两个都是非new出来的Integer，如果数在-128到127之间，使用==比较则是true,如果不在-128到127之间，使用==比较否则为false。而如果使用equals方法来比较，无论比较的数在不在-128到127之间都为true.
       (4)int和integer(无论new否)比，都为true，因为会把Integer自动拆箱为int再去比.
       
-11. long与Long的比较, float与Float的比较, double与Double的比较均已int与Integer的比较类似，不再多说。
+11. long与Long的比较, float与Float的比较, double与Double的比较均与int与Integer的比较类似，不再多说。
 
 12. String(字符串)之间的比较
 (1)String 类是不可改变的，所以你一旦创建了 String 对象，那它的值就无法改变了。

@@ -1,0 +1,12 @@
+遍历 HashMap 的五种最佳方法。
+
+
+使用 Iterator 遍历 HashMap EntrySet
+
+使用 Iterator 遍历 HashMap KeySet
+
+使用 For-each 循环迭代 HashMap
+
+使用 Lambda 表达式遍历 HashMap
+
+使用 Stream API 遍历 HashMap

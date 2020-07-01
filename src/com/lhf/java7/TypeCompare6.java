@@ -35,9 +35,7 @@ public class TypeCompare6 {
 		System.out.println("2: " + s3.equals(s4));  //false
 		System.out.println("3: " + s5.equals(s6));  //true
 		System.out.println("4: " + s1.equals(s5));  //true
-		
 	
-		
 	}
 
 }

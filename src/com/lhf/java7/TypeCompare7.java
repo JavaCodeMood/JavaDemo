@@ -95,19 +95,19 @@ public class TypeCompare7 {
 	public static void main(String[] args) throws ParseException {
 		SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
 		
-		 String timeStr1 = "2020-05-26 12:45:45";
-		 String timeStr2 = "2020-05-26 12:45:40"; 
+		 String timeStr1 = "2020-07-01 12:45:45";
+		 String timeStr2 = "2020-07-01 12:45:40"; 
 		 Date date1 = sdf.parse(timeStr1); 
 		 Date date2 = sdf.parse(timeStr2);
 		 
 		 //Date date1 = new Date();
 		 //Date date2 = new Date();
-		 System.out.println("1 = " + sameDate(date1, date2));
-		 System.out.println("2 = " + sameDate1(date1, date2));
-		 System.out.println("3 = " + sameDate2(date1, date2));
-		 System.out.println("4 = " + sameDate3(date1, date2));
-		 System.out.println("5 = " + sameDate4(date1, date2));
-		 System.out.println("6 = " + sameDate5(date1, date2));
+		 System.out.println("1 = " + sameDate(date1, date2));   //true
+		 System.out.println("2 = " + sameDate1(date1, date2));  //false
+		 System.out.println("3 = " + sameDate2(date1, date2));  //true
+		 System.out.println("4 = " + sameDate3(date1, date2));  //true
+		 System.out.println("5 = " + sameDate4(date1, date2));  //true
+		 System.out.println("6 = " + sameDate5(date1, date2));  //false
 
 	}
 
